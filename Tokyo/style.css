@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 180%;
+    color: gray;
+    text-align: center;
+}
+
+
+
+.tokyo{
+    background: url(img/prva.jpg);
+    min-height: 100%;
+    
+}
+
+.japanskiNacinZivota{
+    background: url(img/druga.jpg);
+    min-height: 60%;
+}
+
+.animeManga{
+    background: url(img/treca.jpg);
+    min-height: 40%;
+}
+
+.planinaFuji{
+    background: url(img/cetvrta.jpg);
+    min-height: 100%;
+}
+
+.tokyo,.japanskiNacinZivota,.animeManga,.planinaFuji{
+    position: relative;
+    opacity: 0.9 ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading{
+   position: absolute;
+   color: white;
+   font-size: 485%; 
+   top: 45%;
+   width:100%;
+   letter-spacing: 5px;
+   text-shadow: 0 0 4px #000000;
+}
+
+.heading-sm{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: white;
+    font-size: 250%;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000000;
+}
+
+section{
+    overflow: auto;
+    padding: 45px 70px;
+}
+
+.two-col{
+    float:left;
+    width: 40%;
+    padding: 0 4%;
+}
+
+.dark{
+    overflow: auto;
+    padding: 45px 70px;
+    background-color: #323232;
+    color: white;
+}
+
+
+
+@media (max-width:780px){
+    .heading{
+        font-size: 250%;
+
+    }
+    .heading-sm{
+        font-size: 170%;
+    }
+    .two-col{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
